@@ -3,8 +3,8 @@
 ##
 controller:
   image:
-    repository: quay.io/kubernetes-ingress-controller/nginx-ingress-controller
-    tag: "0.30.0"
+    repository: docker.io/echoer/amr64/nginx
+    tag: "1.17.9"
     pullPolicy: IfNotPresent
     # www-data -> uid 101
     runAsUser: 101
